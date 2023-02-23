@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+   
+  
+   
+   .card-container{
+    @apply flex justify-center  gap-10 
+   }
+
+    .card{
+        @apply bg-white flex flex-col p-4 rounded-md w-full
+    }
+
+    .img-box{
+        @apply flex justify-center items-center
+    }
+
+    .btn{
+        @apply bg-purple-400 p-3 rounded-md w-36 mt-6 text-white font-semibold
+    }
+
+    .remove-btn{
+        @apply bg-red-500 text-white px-6 py-3 rounded-md
+    }
+
+    .btn:hover{
+        @apply bg-purple-700 
+    }
+
+    .product-name{
+        @apply text-2xl font-bold
+    }
+
+    .price{
+        @apply text-3xl font-extrabold mt-3
+    }
+
+    .info{
+        @apply mt-10
+    }
+}
