@@ -27,6 +27,10 @@
         @apply bg-red-500 text-white px-6 py-3 rounded-md
     }
 
+    .remove-btn:hover{
+        @apply bg-red-400
+    }
+
     .btn:hover{
         @apply bg-purple-700 
     }
@@ -35,11 +39,39 @@
         @apply text-2xl font-bold
     }
 
-    .price{
+    .price
+    {
         @apply text-3xl font-extrabold mt-3
     }
 
     .info{
         @apply mt-10
     }
+
+    .item-name{
+        @apply p-3 text-2xl text-gray-700 font-bold
+    }
+    
+    .item-price,
+    .total-product-price{
+        @apply p-3 text-2xl text-gray-700 font-extrabold
+    }
+
+    .qty{
+        @apply w-12 h-12 text-center border-2 border-solid border-black
+    }
+
+    .total-price-container{
+        @apply bg-gray-50 float-right mt-4 flex gap-2 text-3xl p-4 rounded-sm
+    }
+
+    .total-price-container h4{
+        @apply font-semibold
+    }
+
+    .total-price{
+        @apply font-extrabold
+    }
+
+
 }
